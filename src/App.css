@@ -1,0 +1,82 @@
+
+/* label{
+  margin-bottom: 5px;
+} */
+.forms{
+  display:flex;
+  flex-direction: column;
+}
+/* input{
+  margin-bottom: 10px;
+}  */
+
+body {
+  background: url("loginImage.png");
+  background-size: 1300px, 610px;
+}
+
+.container {
+  /* background: url("loginMain.png"); */
+  background-color: rgba(84, 84, 224, 0.5);
+  width: 40%;
+  height: 500px;
+  float: right;
+  margin-right: 150px;
+  margin-top: 50px;
+  padding-left: 100px;
+}
+
+h1 {
+  padding-left: 150px;
+}
+
+label {
+  font-size: 25px;
+}
+
+#remember_me {
+  font-size: 15px;
+}
+
+#forgot_password {
+  color: black;
+  font-size: 20px;
+  margin-right: 100px;
+}
+
+.input {
+  width: 70%;
+  height: 20px;
+
+}
+
+.label {
+  font-weight: 700px;
+}
+
+
+
+@media (min-width: 330px) and (max-width: 700px) {
+  h1 {
+    padding-left: 50px;
+  }
+}
+
+.click {
+  background-color: blue;
+  color: white;
+  width: 70%;
+  height: 40px;
+  margin-top: 20px;
+}
+
+#terms {
+  font-size: 30px;
+}
+p{
+  height: 15px;
+  padding: 0;
+  margin: 0;
+  color:rgb(211, 0, 0);
+  /* background-color:white; */
+}
